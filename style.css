@@ -1,0 +1,58 @@
+.container {
+    width: 450px;
+    height: 450px;
+    background-color: #e5d3be;
+    border-radius: 16px;
+    margin: 100px auto;
+    padding: 2%;
+}
+
+.img_block {
+    border: 5px solid white;
+    /* background-color: black; */
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.information{
+    display: grid;
+    /* grid-gap: px; */
+}
+.information .info{
+    display: flex;
+    background-color: #fff1e5;
+    border-radius: 8px;
+    width: 400px;
+    height: 25px;
+    margin: 15px;
+}
+
+.info img{
+    margin: 0 5px;
+    width: 24px;
+}
+
+.api_info {
+    height: 25px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.btn{
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    background-color: #fff1e5;
+}
